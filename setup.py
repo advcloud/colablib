@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 setup(
-    name="colablibeye",
+    name="colablib",
     version="1.0",
-    packages=['colablibeye'],
+    packages=['colablib'],
     install_requires=['ffmpeg-python', 'scipy', 'pillow', 'numpy'],
 
     # metadata to display on PyPI
