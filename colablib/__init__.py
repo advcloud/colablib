@@ -1,1 +1,1 @@
-from _functions import imshow, videoGrabber
+from .functions import imshow, videoGrabber
