@@ -3,7 +3,7 @@ setup(
     name="colablib",
     version="1.0",
     packages=['colablib'],
-    install_requires=['ffmpeg-python', 'scipy', 'pillow', 'numpy'],
+    install_requires=['ffmpeg-python', 'azure-cognitiveservices-vision-customvision', 'pillow', 'numpy'],
 
     # metadata to display on PyPI
     author="claireye",
