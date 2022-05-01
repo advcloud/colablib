@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 setup(
-    name="colabtest",
+    name="colablib",
     version="1.0",
-    packages=['colabtest'],
+    packages=['colablib'],
     install_requires=['ffmpeg-python', 'scipy', 'pillow', 'numpy'],
 
     # metadata to display on PyPI
@@ -10,7 +10,7 @@ setup(
     author_email="aijackliu@gmail.com",
     description="Some useful Python stuff for Google Colab notebooks",
     keywords="Notebook colab colaboratory google Numpy PIL OpenCV",
-    url="https://github.com/advcloud/colabtest",
+    url="https://github.com/advcloud/colablib",
     classifiers=[
         'Programming Language :: Python :: 3 :: Only' # https://pypi.org/classifiers/
     ]
